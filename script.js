@@ -1,6 +1,6 @@
 $(document).ready(onReady);
 
-
+let DivCount = 0;
 
 function onReady() {
   
@@ -12,8 +12,11 @@ function onReady() {
 
 function appendDivs() {
   
+  DivCount += 1
+
   $('main').append(`
-    <div>test
+    <div>
+      <p>Current Generated Div Count ---> ${DivCount}
     </div>
   `)
 
