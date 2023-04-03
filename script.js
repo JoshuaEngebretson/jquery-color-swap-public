@@ -44,4 +44,6 @@ function deleteDivElement() {
 
   console.log('in deleteDivElement');
 
+  $(this).parent().remove()
+
 } // End deleteDivElement
