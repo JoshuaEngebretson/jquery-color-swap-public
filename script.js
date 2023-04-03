@@ -1,5 +1,20 @@
 $(document).ready(onReady);
 
+
+
 function onReady() {
-  console.log('JS and JQ working');
-}
+  
+  $('#Generate-btn').on('click', appendDivs)
+
+} // End onReady
+
+
+
+function appendDivs() {
+  
+  $('main').append(`
+    <div>test
+    </div>
+  `)
+
+} // End appendDivs
