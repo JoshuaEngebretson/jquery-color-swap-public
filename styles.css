@@ -7,9 +7,19 @@ h1 {
 }
 
 .Generated-Div {
-  background-color: darkred;
+  background-color: red;
 }
 
 .Yellowed-Div {
   background-color: yellow;
+}
+
+p {
+  font-weight: bold;
+  font-size: large;
+}
+
+#Generate-btn {
+  font-size: larger;
+  font-weight: bold;
 }

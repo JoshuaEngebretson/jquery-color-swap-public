@@ -17,7 +17,7 @@ Follow the steps below to complete the code challenge:
 
         2. ✅ Clicking a "Delete" \<button> should remove its parent \<div> and that \<div>s children (including the clicked on "Delete" button). ✅
 
-3. In a CSS file, any \<div> created using the "Generate" button should start with red as it's background-color.
+3. ✅ In a CSS file, any \<div> created using the "Generate" button should start with red as it's background-color. ✅
 
 No need to do anything beyond the challenge described above. Once you are complete, check your code into a GitHub repo and submit via this application.
 

@@ -15,12 +15,12 @@ function onReady() {
 
 
 function appendDivs() {
-  
+
   DivCount += 1
 
   $('main').append(`
     <div class="Generated-Div">
-      <p>Current Generated Div Count ---> ${DivCount}</p>
+      <p>${DivCount}</p>
       <button class="Yellow-btn">Yellow</button>
       <button class="Delete-btn">Delete</button>
     </div>
@@ -32,8 +32,6 @@ function appendDivs() {
 
 function changeToYellow() {
 
-  console.log('in changeToYellow');
-
   $(this).parent().addClass('Yellowed-Div').removeClass('Generated-Div')
 
 } // End changeToYellow
@@ -41,8 +39,6 @@ function changeToYellow() {
 
 
 function deleteDivElement() {
-
-  console.log('in deleteDivElement');
 
   $(this).parent().remove()
 
