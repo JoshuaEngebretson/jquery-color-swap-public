@@ -11,9 +11,9 @@ Follow the steps below to complete the code challenge:
 
    1. ✅ Inside the \<div> element you created in the previous step, create a \<p> element that shows how many times you have clicked the "Generate" button from the first step. It should reflect the count for that step - the first div you made should be 1, the second 2, etc. (You can use the same append from the previous step) ✅
 
-    2. Inside the \<div> element created in step two, append two \<button> elements with text of "Yellow" & "Delete". (You can use the same append from the previous step)
+    2. ✅ Inside the \<div> element created in step two, append two \<button> elements with text of "Yellow" & "Delete". (You can use the same append from the previous step) ✅
 
-        1. Clicking a "Yellow" \<button> should change its parent background-color from red to yellow.
+        1. ✅ Clicking a "Yellow" \<button> should change its parent background-color from red to yellow. ✅
 
         2. Clicking a "Delete" \<button> should remove its parent \<div> and that \<div>s children (including the clicked on "Delete" button).
 
